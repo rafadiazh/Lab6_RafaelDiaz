@@ -587,6 +587,7 @@ public class Principal extends javax.swing.JFrame {
     private void finMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_finMouseClicked
         c.setEnabled(true);
         c.setVisible(true);
+        JOptionPane.showMessageDialog(this, "Orden finalizada exitosamente");
     }//GEN-LAST:event_finMouseClicked
 
     private void cMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_cMouseClicked
