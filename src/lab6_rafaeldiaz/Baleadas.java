@@ -14,12 +14,16 @@ import java.util.ArrayList;
 public class Baleadas {
     String nombrebal;
     double precio;
-    ArrayList <String> ingredientes = new ArrayList();
+    String ingredientes ;
 
-    public Baleadas(String nombre, double precio) {
+    public Baleadas(String nombrebal, double precio) {
         this.nombrebal = nombrebal;
         this.precio = precio;
     }
+
+    public Baleadas() {
+    }
+    
 
     public String getNombre() {
         return nombrebal;
@@ -37,13 +41,23 @@ public class Baleadas {
         this.precio = precio;
     }
 
-    public ArrayList<String> getIngredientes() {
+    public String getNombrebal() {
+        return nombrebal;
+    }
+
+    public void setNombrebal(String nombrebal) {
+        this.nombrebal = nombrebal;
+    }
+
+    public String getIngredientes() {
         return ingredientes;
     }
 
-    public void setIngredientes(ArrayList<String> ingredientes) {
+    public void setIngredientes(String ingredientes) {
         this.ingredientes = ingredientes;
     }
+
+    
 
     @Override
     public String toString() {
