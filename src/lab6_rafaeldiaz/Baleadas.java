@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class Baleadas {
     String nombrebal;
     double precio;
-    String ingredientes ;
+    
 
     public Baleadas(String nombrebal, double precio) {
         this.nombrebal = nombrebal;
@@ -49,13 +49,7 @@ public class Baleadas {
         this.nombrebal = nombrebal;
     }
 
-    public String getIngredientes() {
-        return ingredientes;
-    }
-
-    public void setIngredientes(String ingredientes) {
-        this.ingredientes = ingredientes;
-    }
+    
 
     
 
