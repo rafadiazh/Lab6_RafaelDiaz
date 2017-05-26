@@ -25,6 +25,9 @@ public class Cliente {
         this.direccion = direccion;
     }
 
+    public Cliente() {
+    }
+    
     public String getNombre() {
         return nombre;
     }
